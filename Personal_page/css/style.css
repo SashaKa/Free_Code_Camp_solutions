@@ -35,10 +35,10 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  background: linear-gradient(#c2bdd7, #68adba, #7e60ff);
+  /*background: linear-gradient(#c2bdd7, #68adba, #7e60ff);*/
 }
 .section {
-    background-color: #fdf1d7;
+
 }
 .column,
 .columns {
@@ -399,7 +399,57 @@ hr {
   display: table;
   clear: both; }
 
+/*CUSTOMS*/
+.header {
+  display: flex;
+  justify-content: space-between;
 
+
+}
+.logo-name {
+  display: flex;
+  font-size: 3rem;
+  margin-right: 7rem;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;;
+  align-items: flex-end;
+
+}
+.menu li {
+  list-style: none;
+}
+.menu a{
+  text-decoration: none;
+  font-size: 3rem;
+  color: gold;
+  padding: 7rem;
+
+
+}
+.menu a:hover {
+  color: pink;
+}
+.main .container {
+  background: linear-gradient(#c2bdd7, #68adba, #7e60ff);
+}
+.about {
+  font-size: 2rem;
+  display: inline-block;
+  text-align: center;
+  margin: 2rem 5rem;
+}
+.title {
+  padding-top: 3rem;
+  color: white;
+}
+.example {
+  text-align: center;
+  padding-left: 5rem;
+  color: bisque;
+}
+}
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /*
