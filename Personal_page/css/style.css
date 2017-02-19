@@ -35,7 +35,7 @@
   margin: 0 auto;
   padding: 0 20px;
   box-sizing: border-box;
-  /*background: linear-gradient(#c2bdd7, #68adba, #7e60ff);*/
+
 }
 .section {
 
@@ -401,15 +401,20 @@ hr {
 
 /*CUSTOMS*/
 .header {
-  display: flex;
-  justify-content: space-between;
+  /*display: flex;
+  justify-content: space-between;*/
 
 
 }
 .logo-name {
-  display: flex;
+  /*display: flex;*/
   font-size: 3rem;
   margin-right: 7rem;
+  /*align-content: center;*/
+}
+.logo-photo {
+    border: 3rem solid white;
+    
 }
 .menu {
   display: flex;
@@ -449,10 +454,42 @@ hr {
   padding-left: 5rem;
   color: bisque;
 }
+.works {
+  position: relative;
+}
+.works img:hover {
+  opacity: 0.2;
+}
+.works:hover .hover-img {
+  display: block;
+
+}
+.hover-img {
+  display: none;
+  position: absolute;
+  top: 50%;
+  color: blueviolet;
+  font-size: 3rem;
+  text-decoration: none;
+  left: 25%;
+  opacity: 1;
+}
 .footer {
   display: flex;
   justify-content: space-around;
-  
+
+}
+.footer a {
+    text-decoration: none;
+    font-size: 3rem;
+    color:violet;
+
+}
+.footer a:hover {
+    color: blue;
+}
+#contacts {
+    margin-top: 3rem;
 }
 /* Media Queries
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
